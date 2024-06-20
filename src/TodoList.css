@@ -1,0 +1,42 @@
+
+.todo-list{
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(42, 110, 86);
+
+}
+.todo-task{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.todo-task li {
+    margin: 20px;
+}
+.todo-task button{
+    background-color: black;
+    color: azure;
+    display: inline-block;
+
+}
+.todo-btn{
+    background-color: black;
+    color: azure;
+    margin: 15px;
+}
+.todo-input{
+    height: 35px;
+    border-radius: 15px;
+    width: 260px;
+}
+.todo-uppercaseall{
+    background-color: black;
+    color: azure;
+    margin: 15px;
+}
+.todo-task .todo-delete{
+    background-color: red;
+    color: black;
+}
