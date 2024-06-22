@@ -8,7 +8,7 @@ export default function TodoList () {
     let [ todos, setTodos ] = useState([{task: "books", id: uuidv4(), isDone: false}]);  // for re-rendering todo list [array]
     let [ newTodo, setNewTodo ] = useState("");  // for re-rendering todo task input
 
-    let addNewTask = () => {    // on-click for buttton
+    let addNewTask = () => {    // on-click for buttton to add task in list
         setTodos((prevTodos) => {
             return [...prevTodos, { task: newTodo, id: uuidv4(), isDone: false }];
         });
@@ -44,10 +44,6 @@ export default function TodoList () {
             };
         }));
     };
-
-    let styles = () => {
-        <style>{{textDecoration: "line through"}}</style>
-    }
 
     let markAsDone = (id) => {       // mark as done 
         setTodos( todos.map((todo) => {

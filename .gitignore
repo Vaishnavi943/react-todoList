@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 LudoBoard.jsx
 Lottery.jsx
+Lottery.css
+helper.js
+TicketNum.jsx
+TicketNum.css
+Ticket.jsx
+Ticket.css
